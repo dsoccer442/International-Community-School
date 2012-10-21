@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'WebViewTutorial1Tests' target in the 'WebViewTutorial1Tests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

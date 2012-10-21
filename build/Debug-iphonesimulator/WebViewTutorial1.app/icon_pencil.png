@@ -1,0 +1,25 @@
+yLoaded = true;
+      var delayedEvents = JOT_delayedEvents;
+      for (var x = 0; x < delayedEvents.length; x++) {
+        var event = delayedEvents[x];
+        JOT_postEvent(event.eventName, event.eventSrc, event.payload);
+      }
+      JOT_delayedEvents = null;
+      JOT_postEvent('pageLoaded');
+    })();
+ //]]>
+</script>
+<script xmlns="http://www.w3.org/1999/xhtml" type="text/javascript">
+    JOT_postEvent('decorateGvizCharts');
+  </script>
+
+<script type="text/javascript">
+              sites.util.Plus.go('sites-chrome-main');
+            </script>
+<div id="server-timer-div" style="display:none"> </div>
+<script>
+          window.jstiming.load.tick('render');
+        </script>
+
+
+</b
