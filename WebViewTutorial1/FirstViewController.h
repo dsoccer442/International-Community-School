@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "NSString+NSStringTags.h"
 
-@interface FirstViewController : UITableViewController {
+@interface FirstViewController : 
+UITableViewController {
+    UIImageView *mImageView;
 	// Adding table view
 	IBOutlet UITableView * newsHomeTable;
 	// Adding activity indivator view
@@ -17,6 +20,8 @@
 	CGSize cellSize;
 	// RSS parser
 	NSXMLParser * rssParser;
+    
+    //NSString * stringByStrippingHTML;
 	// Array for announcements
 	NSMutableArray * stories;
 	// a temporary item; added to the "stories" array one at a time, and cleared for the next one
@@ -27,9 +32,9 @@
 	NSString * currentElement;
 	NSMutableString * currentTitle, * currentDate, * currentSummary, * currentLink;
     
-    UIImageView *mImageView;
+    
 }
-
-@property(nonatomic, retain) IBOutlet UIImageView *mImageView;
+//
+@property (nonatomic, retain) UIImageView *mImageView;
 
 @end

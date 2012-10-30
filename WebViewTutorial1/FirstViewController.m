@@ -25,11 +25,13 @@
 //    self.navigationItem.rightBarButtonItem = button;
 //    [button release];
     
-    mImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"img2.png"]];
-    [self.view addSubview:mImageView];
-    mImageView.center = CGPointMake(160, 314);
+//    mImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"header.png"]];
+//    [self.view addSubview:mImageView];
+//    mImageView.center = CGPointMake(160, 60);
+    //[newsHomeTable addSubview:(mImageView)];
   
-    
+    newsHomeTable.tableHeaderView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"header.png"]];
+//    newsHomeTable.center = CGPointMake(160, 90);
     [super viewDidLoad];
 
 }
@@ -62,6 +64,7 @@
 	static NSString *MyIdentifier = @"MyIdentifier";
     UITableViewCell *cell = nil;
     UILabel *homeCellLabel = nil;
+    UILabel *descriptionLabel = nil;
 	
     // If the cell does not exist, create the cell with a label set to a certain font and size
 	cell = [tableView dequeueReusableCellWithIdentifier:MyIdentifier];
@@ -69,6 +72,7 @@
     {
 		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:MyIdentifier] autorelease];
         
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:MyIdentifier] autorelease];
         homeCellLabel = [[UILabel alloc] initWithFrame:CGRectZero];
         [homeCellLabel setLineBreakMode:UILineBreakModeWordWrap];
         [homeCellLabel setMinimumFontSize:FONT_SIZE];
@@ -76,12 +80,22 @@
         [homeCellLabel setFont:[UIFont systemFontOfSize:FONT_SIZE]];
         [homeCellLabel setTag:1];
                 
-        [[cell contentView] addSubview:homeCellLabel];
+//        [cell addSubview:homeCellLabel];
+        
+        descriptionLabel = [[UILabel alloc] initWithFrame:CGRectZero];
+        [descriptionLabel setLineBreakMode:UILineBreakModeWordWrap];
+        [descriptionLabel setMinimumFontSize:FONT_SIZE];
+        [descriptionLabel setNumberOfLines:0];
+        [descriptionLabel setFont:[UIFont systemFontOfSize:FONT_SIZE]];
+        [descriptionLabel setTag:2];
+        
+//        [cell addSubview:descriptionLabel];
 	}
     // Creating index path and string for the use in determining height
     int storyIndex = [indexPath indexAtPosition: [indexPath length] - 1];
     
     NSString *testString = [NSString stringWithFormat:@"%@", [[stories objectAtIndex:storyIndex] objectForKey: @"title"]];
+    
 
     CGSize constraint = CGSizeMake(CELL_CONTENT_WIDTH - (CELL_CONTENT_MARGIN * 2), 20000.0f);
 
@@ -90,13 +104,41 @@
     if (!homeCellLabel)
         homeCellLabel = (UILabel*)[cell viewWithTag:1];
 
+    NSString *tempString = [[stories objectAtIndex: storyIndex] objectForKey: @"title"];
+    NSString *strippedString = [tempString stringByStrippingHTML];
     // Setting text and frame size for label
-    [homeCellLabel setText:[[stories objectAtIndex: storyIndex] objectForKey: @"title"]];
+    [homeCellLabel setText:strippedString]; //#TODO description
     [homeCellLabel setFrame:CGRectMake(CELL_CONTENT_MARGIN, CELL_CONTENT_MARGIN, CELL_CONTENT_WIDTH - (CELL_CONTENT_MARGIN * 2), MAX(size.height, 44.0f))];
     // Defining background color of the label cell and text
-    homeCellLabel.backgroundColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.048 alpha:1.0];
-    homeCellLabel.textColor = [UIColor yellowColor];
-        
+    //homeCellLabel.backgroundColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.048 alpha:0.5];
+    homeCellLabel.textColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.048 alpha:1.0];
+    homeCellLabel.font = [UIFont fontWithName:@"Georgia" size:16];
+    
+    if (!descriptionLabel)
+        descriptionLabel = (UILabel*)[cell viewWithTag:2];
+    
+    NSString *tempString2 = [[stories objectAtIndex: storyIndex] objectForKey: @"summary"];
+    NSString *strippedString2 = [tempString2 stringByStrippingHTML];
+    // Setting text and frame size for label
+    [descriptionLabel setText:strippedString2]; //#TODO description
+    [descriptionLabel setFrame:CGRectMake(CELL_CONTENT_MARGIN, CELL_CONTENT_MARGIN, CELL_CONTENT_WIDTH - (CELL_CONTENT_MARGIN * 2), MAX(size.height, 44.0f))];
+    // Defining background color of the label cell and text
+    //descriptionLabel.backgroundColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.048 alpha:0.5];
+    descriptionLabel.textColor = [UIColor grayColor];
+    descriptionLabel.font = [UIFont fontWithName:@"Georgia" size:14];
+//        
+    
+    
+    [cell.textLabel setText:strippedString];
+    //[cell.textLabel setLineBreakMode:UILineBreakModeWordWrap];
+    cell.textLabel.numberOfLines = 0;
+    cell.textLabel.textColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.048 alpha:1.0];
+    cell.textLabel.font = [UIFont fontWithName:@"Georgia" size:16];
+    [cell.detailTextLabel setText:strippedString2];
+    //[cell.detailTextLabel setLineBreakMode:UILineBreakModeWordWrap];
+    cell.detailTextLabel.textColor = [UIColor grayColor];
+    cell.detailTextLabel.font = [UIFont fontWithName:@"Georgia" size:14];
+    cell.detailTextLabel.numberOfLines = 0;
 	return cell;
 }
 
@@ -105,7 +147,7 @@
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Defining background color of cell as the same as label cell
-    cell.backgroundColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.048 alpha:1.0];
+    //cell.backgroundColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.008 alpha:0.75];
 
     // Selecting cell does not highlight it
 	UIView *myBackView = [[UIView alloc] initWithFrame:cell.frame];
@@ -194,10 +236,10 @@
 
 
 - (void)parser:(NSXMLParser *)parser parseErrorOccurred:(NSError *)parseError {
-	NSString * errorString = [NSString stringWithFormat:@"Unable to download story feed from web site (Error code %i )", [parseError code]];
+	NSString * errorString = [NSString stringWithFormat:@"Check your internet connection!", [parseError code]];
 	NSLog(@"error parsing XML: %@", errorString);
 	
-	UIAlertView * errorAlert = [[UIAlertView alloc] initWithTitle:@"Error loading content" message:errorString delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+	UIAlertView * errorAlert = [[UIAlertView alloc] initWithTitle:@"Oops..." message:errorString delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
 	[errorAlert show];
 }
 

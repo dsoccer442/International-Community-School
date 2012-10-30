@@ -25,6 +25,7 @@
     [self.window makeKeyAndVisible];
     [window addSubview:[navigationController view]];
 	[window makeKeyAndVisible];
+    //tabBarController.
     return YES;
 }
 

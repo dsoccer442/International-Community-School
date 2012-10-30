@@ -7,7 +7,7 @@
 //
 
 #import "SecondViewController.h"
-#define FONT_SIZE 18.0f
+#define FONT_SIZE 20.0f
 
 
 @implementation SecondViewController
@@ -54,8 +54,9 @@
     [cell.textLabel setMinimumFontSize:FONT_SIZE];
     [cell.textLabel setFont:[UIFont systemFontOfSize:FONT_SIZE]];
     // Background of text label is red and text color is yellow
-    cell.textLabel.backgroundColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.048 alpha:1.0];
-    cell.textLabel.textColor = [UIColor yellowColor];
+    //cell.textLabel.backgroundColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.048 alpha:1.0];
+    cell.textLabel.textColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.048 alpha:1.0];
+    cell.textLabel.font = [UIFont fontWithName:@"Georgia" size:20];
 
     return cell;
 }
@@ -63,7 +64,7 @@
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Background of cell is red and when selecting it gray
-    cell.backgroundColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.048 alpha:1.0];
+    //cell.backgroundColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.048 alpha:1.0];
     cell.selectionStyle = UITableViewCellSelectionStyleGray;
 }
 
@@ -73,7 +74,7 @@
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     
     // If ASB is clicked, load ASB .xib
-    if ([cell.textLabel.text isEqualToString:@"ASB"]) {
+    if ([cell.textLabel.text isEqualToString:@"ASB\nAssociated Student Body"]) {
         if (self.myASBWebView == nil) {
             ASBWebView *temp = [[ASBWebView alloc] initWithNibName:@"ASBWebView" bundle: [NSBundle mainBundle]];
             self.myASBWebView = temp;

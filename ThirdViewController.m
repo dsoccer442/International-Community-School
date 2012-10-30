@@ -87,16 +87,16 @@
     [calCellLabel setFrame:CGRectMake(CELL_CONTENT_MARGIN, CELL_CONTENT_MARGIN, CELL_CONTENT_WIDTH - (CELL_CONTENT_MARGIN * 2), MAX(size.height, 44.0f))];
     
     // Setting red background color of cell label and yellow text color
-    calCellLabel.backgroundColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.048 alpha:1.0];
-    calCellLabel.textColor = [UIColor yellowColor];
-    
+    //calCellLabel.backgroundColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.048 alpha:1.0];
+    calCellLabel.textColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.048 alpha:1.0];
+     calCellLabel.font = [UIFont fontWithName:@"Georgia" size:16];
     return cell;
 }
 
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Defining background color of cell as the same as label cell
-    cell.backgroundColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.048 alpha:1.0];
+    //cell.backgroundColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.048 alpha:1.0];
     // Selecting cell turns gray
     cell.selectionStyle = UITableViewCellSelectionStyleGray;
 }
