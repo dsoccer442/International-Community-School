@@ -27,7 +27,6 @@
 		37DF857714506B480049A7ED /* MyWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DF857514506B480049A7ED /* MyWebView.m */; };
 		37DF857814506B480049A7ED /* MyWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37DF857614506B480049A7ED /* MyWebView.xib */; };
 		5D922C89163E8E1700050668 /* NSString+NSStringTags.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D922C88163E8E1700050668 /* NSString+NSStringTags.m */; };
-		5D94CC2F163E5B5100E36C87 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D94CC2E163E5B5100E36C87 /* header.png */; };
 		FC04B9E116166CEE00C6F6EA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FC04B9E016166CEE00C6F6EA /* Default-568h@2x.png */; };
 		FC1D455A15ED91EE00743EFD /* ASBWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D455815ED91EE00743EFD /* ASBWebView.m */; };
 		FC1D455B15ED91EE00743EFD /* ASBWebView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1D455915ED91EE00743EFD /* ASBWebView.xib */; };
@@ -67,7 +66,6 @@
 		FC1D45DE15EDFBD000743EFD /* info_30.png in Resources */ = {isa = PBXBuildFile; fileRef = FC1D45D815EDFBD000743EFD /* info_30.png */; };
 		FC1D45E415EDFD0200743EFD /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC1D45E215EDFCFE00743EFD /* FifthViewController.m */; };
 		FC1D45E515EDFD0200743EFD /* FifthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1D45E315EDFD0000743EFD /* FifthViewController.xib */; };
-		FC274BB11633A3200083C950 /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = FC274BB01633A3200083C950 /* img2.png */; };
 		FC3CE1CC1612BD3C00D892BF /* DetailCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3CE1CA1612BD3C00D892BF /* DetailCalendarController.m */; };
 		FC3CE1CD1612BD3C00D892BF /* DetailCalendarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3CE1CB1612BD3C00D892BF /* DetailCalendarController.xib */; };
 		FC3CE1F51612C23E00D892BF /* DetailMediaController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3CE1F31612C23E00D892BF /* DetailMediaController.m */; };
@@ -120,7 +118,6 @@
 		37DF857614506B480049A7ED /* MyWebView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyWebView.xib; sourceTree = "<group>"; };
 		5D922C87163E8E1700050668 /* NSString+NSStringTags.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSStringTags.h"; sourceTree = "<group>"; };
 		5D922C88163E8E1700050668 /* NSString+NSStringTags.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSStringTags.m"; sourceTree = "<group>"; };
-		5D94CC2E163E5B5100E36C87 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
 		FC04B9E016166CEE00C6F6EA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		FC1D455715ED91EE00743EFD /* ASBWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBWebView.h; sourceTree = "<group>"; };
 		FC1D455815ED91EE00743EFD /* ASBWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBWebView.m; sourceTree = "<group>"; };
@@ -177,7 +174,6 @@
 		FC1D45E215EDFCFE00743EFD /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FifthViewController.m; path = ../FifthViewController.m; sourceTree = "<group>"; };
 		FC1D45E315EDFD0000743EFD /* FifthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FifthViewController.xib; path = ../FifthViewController.xib; sourceTree = "<group>"; };
 		FC2629E2161F2C0E00047A2D /* WebViewTutorial1Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewTutorial1Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC274BB01633A3200083C950 /* img2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img2.png; sourceTree = "<group>"; };
 		FC3CE1C91612BD3C00D892BF /* DetailCalendarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCalendarController.h; sourceTree = "<group>"; };
 		FC3CE1CA1612BD3C00D892BF /* DetailCalendarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCalendarController.m; sourceTree = "<group>"; };
 		FC3CE1CB1612BD3C00D892BF /* DetailCalendarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailCalendarController.xib; sourceTree = "<group>"; };
@@ -255,8 +251,6 @@
 		375E3C56144DC81F00A56C68 /* WebViewTutorial1 */ = {
 			isa = PBXGroup;
 			children = (
-				5D94CC2E163E5B5100E36C87 /* header.png */,
-				FC274BB01633A3200083C950 /* img2.png */,
 				FC1D45DF15EDFC6B00743EFD /* First View (Home) */,
 				FC1D45E015EDFC7700743EFD /* Second View (Clubs) */,
 				FCE65B9315EE70C90047A184 /* Third View (Calendar) */,
@@ -667,8 +661,6 @@
 				FC3CE1CD1612BD3C00D892BF /* DetailCalendarController.xib in Resources */,
 				FC3CE1F61612C23E00D892BF /* DetailMediaController.xib in Resources */,
 				FC04B9E116166CEE00C6F6EA /* Default-568h@2x.png in Resources */,
-				FC274BB11633A3200083C950 /* img2.png in Resources */,
-				5D94CC2F163E5B5100E36C87 /* header.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

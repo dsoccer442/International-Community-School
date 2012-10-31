@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "375E3C4B144DC81F00A56C68"
-               BuildableName = "WebViewTutorial1.app"
+               BuildableName = "ICS.app"
                BlueprintName = "WebViewTutorial1"
                ReferencedContainer = "container:WebViewTutorial1.xcodeproj">
             </BuildableReference>
@@ -55,7 +55,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "375E3C4B144DC81F00A56C68"
-            BuildableName = "WebViewTutorial1.app"
+            BuildableName = "ICS.app"
             BlueprintName = "WebViewTutorial1"
             ReferencedContainer = "container:WebViewTutorial1.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "375E3C4B144DC81F00A56C68"
-            BuildableName = "WebViewTutorial1.app"
+            BuildableName = "ICS.app"
             BlueprintName = "WebViewTutorial1"
             ReferencedContainer = "container:WebViewTutorial1.xcodeproj">
          </BuildableReference>

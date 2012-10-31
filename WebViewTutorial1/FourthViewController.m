@@ -123,6 +123,8 @@
     self.detailMediaControllerData = temp;
     detailMediaControllerData.passedURL = storyLinkURL;
     [self.navigationController pushViewController:detailMediaControllerData animated:YES];
+    
+    [temp release];
 }
 
 

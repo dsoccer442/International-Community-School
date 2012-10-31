@@ -25,13 +25,8 @@
 //    self.navigationItem.rightBarButtonItem = button;
 //    [button release];
     
-//    mImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"header.png"]];
-//    [self.view addSubview:mImageView];
-//    mImageView.center = CGPointMake(160, 60);
-    //[newsHomeTable addSubview:(mImageView)];
-  
     newsHomeTable.tableHeaderView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"header.png"]];
-//    newsHomeTable.center = CGPointMake(160, 90);
+
     [super viewDidLoad];
 
 }
@@ -70,8 +65,6 @@
 	cell = [tableView dequeueReusableCellWithIdentifier:MyIdentifier];
 	if (cell == nil)
     {
-		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:MyIdentifier] autorelease];
-        
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:MyIdentifier] autorelease];
         homeCellLabel = [[UILabel alloc] initWithFrame:CGRectZero];
         [homeCellLabel setLineBreakMode:UILineBreakModeWordWrap];
@@ -123,19 +116,17 @@
     [descriptionLabel setText:strippedString2]; //#TODO description
     [descriptionLabel setFrame:CGRectMake(CELL_CONTENT_MARGIN, CELL_CONTENT_MARGIN, CELL_CONTENT_WIDTH - (CELL_CONTENT_MARGIN * 2), MAX(size.height, 44.0f))];
     // Defining background color of the label cell and text
-    //descriptionLabel.backgroundColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.048 alpha:0.5];
     descriptionLabel.textColor = [UIColor grayColor];
     descriptionLabel.font = [UIFont fontWithName:@"Georgia" size:14];
 //        
     
     
     [cell.textLabel setText:strippedString];
-    //[cell.textLabel setLineBreakMode:UILineBreakModeWordWrap];
+    [cell.textLabel setLineBreakMode:UILineBreakModeWordWrap];
     cell.textLabel.numberOfLines = 0;
     cell.textLabel.textColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.048 alpha:1.0];
     cell.textLabel.font = [UIFont fontWithName:@"Georgia" size:16];
     [cell.detailTextLabel setText:strippedString2];
-    //[cell.detailTextLabel setLineBreakMode:UILineBreakModeWordWrap];
     cell.detailTextLabel.textColor = [UIColor grayColor];
     cell.detailTextLabel.font = [UIFont fontWithName:@"Georgia" size:14];
     cell.detailTextLabel.numberOfLines = 0;
@@ -147,13 +138,10 @@
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Defining background color of cell as the same as label cell
-    //cell.backgroundColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.008 alpha:0.75];
+    cell.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0];
 
     // Selecting cell does not highlight it
-	UIView *myBackView = [[UIView alloc] initWithFrame:cell.frame];
-    myBackView.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0];
-    cell.selectedBackgroundView = myBackView;
-    [myBackView release];
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
 }
 
 
