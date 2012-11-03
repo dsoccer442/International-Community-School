@@ -24,9 +24,14 @@
 //	UIBarButtonItem *button = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemRefresh target:self action:@selector(refresh:)];
 //    self.navigationItem.rightBarButtonItem = button;
 //    [button release];
+<<<<<<< HEAD
     
     newsHomeTable.tableHeaderView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"header.png"]];
 
+=======
+  
+    newsHomeTable.tableHeaderView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"header.png"]];
+>>>>>>> fixed cell overlaps
     [super viewDidLoad];
 
 }
@@ -43,14 +48,27 @@
 }
 
 // Defining how high to make each cell based on the title of each item in the stories array
+<<<<<<< HEAD
+=======
+
+>>>>>>> fixed cell overlaps
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath;
 {
     int storyIndex = [indexPath indexAtPosition: [indexPath length] - 1];
     NSString *testString = [NSString stringWithFormat:@"%@", [[stories objectAtIndex:storyIndex] objectForKey: @"title"]];
+<<<<<<< HEAD
     CGSize constraint = CGSizeMake(CELL_CONTENT_WIDTH - (CELL_CONTENT_MARGIN * 2), 20000.0f);
     CGSize size = [testString sizeWithFont:[UIFont systemFontOfSize:FONT_SIZE] constrainedToSize:constraint lineBreakMode:UILineBreakModeWordWrap];
     CGFloat height = MAX(size.height, 44.0f);
     return height + (CELL_CONTENT_MARGIN * 2);
+=======
+    NSString *testString2 = [NSString stringWithFormat:@"%@", [[stories objectAtIndex:storyIndex] objectForKey: @"summary"]];
+    NSString *finalString = [NSString stringWithFormat:@"%@, %@", testString, testString2];
+    CGSize constraint = CGSizeMake(CELL_CONTENT_WIDTH - (CELL_CONTENT_MARGIN * 2), 20000.0f);
+    CGSize size = [finalString sizeWithFont:[UIFont fontWithName:@"Georgia" size:13] constrainedToSize:constraint lineBreakMode:UILineBreakModeWordWrap];//#todo: font size doesnt work. new lines. 
+    CGFloat height = MAX(size.height, 44.0f);
+    return height;
+>>>>>>> fixed cell overlaps
 }
 
 
@@ -58,13 +76,17 @@
 	// Defining cell and label
 	static NSString *MyIdentifier = @"MyIdentifier";
     UITableViewCell *cell = nil;
+<<<<<<< HEAD
     UILabel *homeCellLabel = nil;
     UILabel *descriptionLabel = nil;
+=======
+>>>>>>> fixed cell overlaps
 	
     // If the cell does not exist, create the cell with a label set to a certain font and size
 	cell = [tableView dequeueReusableCellWithIdentifier:MyIdentifier];
 	if (cell == nil)
     {
+<<<<<<< HEAD
         cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:MyIdentifier] autorelease];
         homeCellLabel = [[UILabel alloc] initWithFrame:CGRectZero];
         [homeCellLabel setLineBreakMode:UILineBreakModeWordWrap];
@@ -130,6 +152,32 @@
     cell.detailTextLabel.textColor = [UIColor grayColor];
     cell.detailTextLabel.font = [UIFont fontWithName:@"Georgia" size:14];
     cell.detailTextLabel.numberOfLines = 0;
+=======
+		cell = [[[UITableViewCell alloc] initWithFrame:CGRectZero reuseIdentifier:MyIdentifier] autorelease];
+        
+        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:MyIdentifier] autorelease];
+
+	}
+    // Creating index path and string for the use in determining height
+    int storyIndex = [indexPath indexAtPosition: [indexPath length] - 1];
+
+    NSString *tempString = [[stories objectAtIndex: storyIndex] objectForKey: @"title"];
+    NSString *strippedString = [tempString stringByStrippingHTML];
+    
+    NSString *tempString2 = [[stories objectAtIndex: storyIndex] objectForKey: @"summary"];
+    NSString *strippedString2 = [tempString2 stringByStrippingHTML];
+    
+    [cell.textLabel setText:strippedString];
+    cell.textLabel.numberOfLines = 0;
+    cell.textLabel.textColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.048 alpha:1.0];
+    cell.textLabel.font = [UIFont fontWithName:@"Georgia" size:16];
+    
+    [cell.detailTextLabel setText:strippedString2];
+    cell.detailTextLabel.textColor = [UIColor grayColor];
+    cell.detailTextLabel.font = [UIFont fontWithName:@"Georgia" size:16];
+    cell.detailTextLabel.numberOfLines = 0;
+    
+>>>>>>> fixed cell overlaps
 	return cell;
 }
 
@@ -138,10 +186,21 @@
 - (void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Defining background color of cell as the same as label cell
+<<<<<<< HEAD
     cell.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0];
 
     // Selecting cell does not highlight it
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
+=======
+    //cell.backgroundColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.008 alpha:0.75];
+
+//    // Selecting cell does not highlight it#TODO 
+//	UIView *myBackView = [[UIView alloc] initWithFrame:cell.frame];
+//    myBackView.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0];
+//    cell.selectedBackgroundView = myBackView;
+//    [myBackView release];
+    
+>>>>>>> fixed cell overlaps
 }
 
 

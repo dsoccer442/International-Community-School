@@ -123,8 +123,11 @@
     self.detailMediaControllerData = temp;
     detailMediaControllerData.passedURL = storyLinkURL;
     [self.navigationController pushViewController:detailMediaControllerData animated:YES];
+<<<<<<< HEAD
     
     [temp release];
+=======
+>>>>>>> fixed cell overlaps
 }
 
 
