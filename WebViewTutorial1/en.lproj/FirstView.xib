@@ -1,16 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="7.10">
 	<data>
-<<<<<<< HEAD
-		<int key="IBDocument.SystemTarget">1536</int>
-		<string key="IBDocument.SystemVersion">12C60</string>
-		<string key="IBDocument.InterfaceBuilderVersion">2843</string>
-		<string key="IBDocument.AppKitVersion">1187.34</string>
-		<string key="IBDocument.HIToolboxVersion">625.00</string>
-		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			<string key="NS.object.0">1929</string>
-=======
 		<int key="IBDocument.SystemTarget">1280</int>
 		<string key="IBDocument.SystemVersion">10K549</string>
 		<string key="IBDocument.InterfaceBuilderVersion">1938</string>
@@ -19,18 +9,12 @@
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			<string key="NS.object.0">933</string>
->>>>>>> fixed cell overlaps
 		</object>
 		<object class="NSArray" key="IBDocument.IntegratedClassDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<string>IBProxyObject</string>
-<<<<<<< HEAD
-			<string>IBUITableView</string>
-			<string>IBUIView</string>
-=======
 			<string>IBUIView</string>
 			<string>IBUITableView</string>
->>>>>>> fixed cell overlaps
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -57,16 +41,10 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<object class="IBUITableView" id="114480942">
 						<reference key="NSNextResponder" ref="534702438"/>
-<<<<<<< HEAD
-						<int key="NSvFlags">319</int>
-						<string key="NSFrame">{{0, 148}, {320, 284}}</string>
-						<reference key="NSSuperview" ref="534702438"/>
-=======
 						<int key="NSvFlags">274</int>
 						<string key="NSFrame">{{0, 43}, {320, 388}}</string>
 						<reference key="NSSuperview" ref="534702438"/>
 						<reference key="NSWindow"/>
->>>>>>> fixed cell overlaps
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">3</int>
 							<bytes key="NSWhite">MQA</bytes>
@@ -76,22 +54,14 @@
 						<int key="IBUISeparatorStyle">1</int>
 						<int key="IBUISectionIndexMinimumDisplayRowCount">0</int>
 						<bool key="IBUIShowsSelectionImmediatelyOnTouchBegin">YES</bool>
-<<<<<<< HEAD
-						<float key="IBUIRowHeight">42</float>
-=======
 						<float key="IBUIRowHeight">44</float>
->>>>>>> fixed cell overlaps
 						<float key="IBUISectionHeaderHeight">22</float>
 						<float key="IBUISectionFooterHeight">22</float>
 					</object>
 				</object>
 				<string key="NSFrameSize">{320, 431}</string>
 				<reference key="NSSuperview"/>
-<<<<<<< HEAD
-				<reference key="NSNextKeyView" ref="114480942"/>
-=======
 				<reference key="NSWindow"/>
->>>>>>> fixed cell overlaps
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">3</int>
 					<bytes key="NSWhite">MQA</bytes>
@@ -195,11 +165,7 @@
 					<string>10.IBPluginDependency</string>
 					<string>23.IBPluginDependency</string>
 				</object>
-<<<<<<< HEAD
-				<object class="NSArray" key="dict.values">
-=======
 				<object class="NSMutableArray" key="dict.values">
->>>>>>> fixed cell overlaps
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>FirstViewController</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
@@ -223,9 +189,6 @@
 			<nil key="sourceID"/>
 			<int key="maxID">24</int>
 		</object>
-<<<<<<< HEAD
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
-=======
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
 				<bool key="EncodedWithXMLCoder">YES</bool>
@@ -250,7 +213,6 @@
 				</object>
 			</object>
 		</object>
->>>>>>> fixed cell overlaps
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
@@ -259,10 +221,6 @@
 		</object>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
 		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-<<<<<<< HEAD
-		<string key="IBCocoaTouchPluginVersion">1929</string>
-=======
 		<string key="IBCocoaTouchPluginVersion">933</string>
->>>>>>> fixed cell overlaps
 	</data>
 </archive>
