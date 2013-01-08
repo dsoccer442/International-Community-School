@@ -74,7 +74,7 @@
     UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
     
     // If ASB is clicked, load ASB .xib
-    if ([cell.textLabel.text isEqualToString:@"ASB\nAssociated Student Body"]) {
+    if ([cell.textLabel.text isEqualToString:@"ASB"]) {
         if (self.myASBWebView == nil) {
             ASBWebView *temp = [[ASBWebView alloc] initWithNibName:@"ASBWebView" bundle: [NSBundle mainBundle]];
             self.myASBWebView = temp;

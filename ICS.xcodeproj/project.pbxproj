@@ -63,16 +63,15 @@
 		FC274BB11633A3200083C950 /* img2.png in Resources */ = {isa = PBXBuildFile; fileRef = FC274BB01633A3200083C950 /* img2.png */; };
 		FC3CE1CC1612BD3C00D892BF /* DetailCalendarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3CE1CA1612BD3C00D892BF /* DetailCalendarController.m */; };
 		FC3CE1CD1612BD3C00D892BF /* DetailCalendarController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3CE1CB1612BD3C00D892BF /* DetailCalendarController.xib */; };
-		FC3CE1F51612C23E00D892BF /* DetailMediaController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC3CE1F31612C23E00D892BF /* DetailMediaController.m */; };
-		FC3CE1F61612C23E00D892BF /* DetailMediaController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC3CE1F41612C23E00D892BF /* DetailMediaController.xib */; };
 		FC411DB815F07584006B7FF9 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC411DB715F07584006B7FF9 /* icon.png */; };
+		FC5F9906169BD3E10021456F /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5F9904169BD3E00021456F /* FourthViewController.m */; };
+		FC5F9907169BD3E10021456F /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC5F9905169BD3E10021456F /* FourthViewController.xib */; };
 		FC76222216176BC200736DA2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC76222116176BC200736DA2 /* QuartzCore.framework */; };
 		FCE65B9115EE6FFE0047A184 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE65B8F15EE6FFE0047A184 /* ThirdViewController.m */; };
 		FCE65B9215EE6FFE0047A184 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE65B9015EE6FFE0047A184 /* ThirdViewController.xib */; };
-		FCE65B9715EE836D0047A184 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE65B9515EE836D0047A184 /* FourthViewController.m */; };
-		FCE65B9815EE836D0047A184 /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE65B9615EE836D0047A184 /* FourthViewController.xib */; };
 		FCE886D115EF3A27006677E9 /* iPhoneIcon_Big.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE886CF15EF3A27006677E9 /* iPhoneIcon_Big.png */; };
 		FCE886D215EF3A27006677E9 /* iPhoneIcon_Medium.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE886D015EF3A27006677E9 /* iPhoneIcon_Medium.png */; };
+		FCEC833D168ECDB600140B41 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCEC833C168ECDB600140B41 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -157,19 +156,17 @@
 		FC3CE1C91612BD3C00D892BF /* DetailCalendarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCalendarController.h; sourceTree = "<group>"; };
 		FC3CE1CA1612BD3C00D892BF /* DetailCalendarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCalendarController.m; sourceTree = "<group>"; };
 		FC3CE1CB1612BD3C00D892BF /* DetailCalendarController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailCalendarController.xib; sourceTree = "<group>"; };
-		FC3CE1F21612C23E00D892BF /* DetailMediaController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailMediaController.h; sourceTree = "<group>"; };
-		FC3CE1F31612C23E00D892BF /* DetailMediaController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailMediaController.m; sourceTree = "<group>"; };
-		FC3CE1F41612C23E00D892BF /* DetailMediaController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailMediaController.xib; sourceTree = "<group>"; };
 		FC411DB715F07584006B7FF9 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = images/icon.png; sourceTree = SOURCE_ROOT; };
+		FC5F9903169BD3E00021456F /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		FC5F9904169BD3E00021456F /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		FC5F9905169BD3E10021456F /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
 		FC76222116176BC200736DA2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FCE65B8E15EE6FFE0047A184 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		FCE65B8F15EE6FFE0047A184 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		FCE65B9015EE6FFE0047A184 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
-		FCE65B9415EE836D0047A184 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
-		FCE65B9515EE836D0047A184 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
-		FCE65B9615EE836D0047A184 /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
 		FCE886CF15EF3A27006677E9 /* iPhoneIcon_Big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneIcon_Big.png; sourceTree = "<group>"; };
 		FCE886D015EF3A27006677E9 /* iPhoneIcon_Medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneIcon_Medium.png; sourceTree = "<group>"; };
+		FCEC833C168ECDB600140B41 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +187,7 @@
 		375E3C41144DC81E00A56C68 = {
 			isa = PBXGroup;
 			children = (
+				FCEC833C168ECDB600140B41 /* Default-568h@2x.png */,
 				375E3C56144DC81F00A56C68 /* WebViewTutorial1 */,
 				375E3C57144DC81F00A56C68 /* Supporting Files */,
 				375E3C4F144DC81F00A56C68 /* Frameworks */,
@@ -224,7 +222,7 @@
 				FC1D45DF15EDFC6B00743EFD /* First View (Home) */,
 				FC1D45E015EDFC7700743EFD /* Second View (Clubs) */,
 				FCE65B9315EE70C90047A184 /* Third View (Calendar) */,
-				FCE65B9915EE83C30047A184 /* Fourth View (Media) */,
+				FC5F9908169BD3F60021456F /* Fourth View (Media) */,
 				FCE65B8C15EE6CB90047A184 /* Fifth View (Contact) */,
 				375E3C5F144DC81F00A56C68 /* WebViewTutorial1AppDelegate.h */,
 				375E3C60144DC81F00A56C68 /* WebViewTutorial1AppDelegate.m */,
@@ -446,6 +444,17 @@
 			name = "Second View (Clubs)";
 			sourceTree = "<group>";
 		};
+		FC5F9908169BD3F60021456F /* Fourth View (Media) */ = {
+			isa = PBXGroup;
+			children = (
+				FC5F9903169BD3E00021456F /* FourthViewController.h */,
+				FC5F9904169BD3E00021456F /* FourthViewController.m */,
+				FC5F9905169BD3E10021456F /* FourthViewController.xib */,
+			);
+			name = "Fourth View (Media)";
+			path = ..;
+			sourceTree = "<group>";
+		};
 		FCE65B8C15EE6CB90047A184 /* Fifth View (Contact) */ = {
 			isa = PBXGroup;
 			children = (
@@ -490,19 +499,6 @@
 			);
 			name = "Third View (Calendar)";
 			path = ..;
-			sourceTree = "<group>";
-		};
-		FCE65B9915EE83C30047A184 /* Fourth View (Media) */ = {
-			isa = PBXGroup;
-			children = (
-				FCE65B9415EE836D0047A184 /* FourthViewController.h */,
-				FCE65B9515EE836D0047A184 /* FourthViewController.m */,
-				FCE65B9615EE836D0047A184 /* FourthViewController.xib */,
-				FC3CE1F21612C23E00D892BF /* DetailMediaController.h */,
-				FC3CE1F31612C23E00D892BF /* DetailMediaController.m */,
-				FC3CE1F41612C23E00D892BF /* DetailMediaController.xib */,
-			);
-			name = "Fourth View (Media)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -583,14 +579,14 @@
 				FC1D45DE15EDFBD000743EFD /* info_30.png in Resources */,
 				FC1D45E515EDFD0200743EFD /* FifthViewController.xib in Resources */,
 				FCE65B9215EE6FFE0047A184 /* ThirdViewController.xib in Resources */,
-				FCE65B9815EE836D0047A184 /* FourthViewController.xib in Resources */,
 				FCE886D115EF3A27006677E9 /* iPhoneIcon_Big.png in Resources */,
 				FCE886D215EF3A27006677E9 /* iPhoneIcon_Medium.png in Resources */,
 				FC411DB815F07584006B7FF9 /* icon.png in Resources */,
 				FC3CE1CD1612BD3C00D892BF /* DetailCalendarController.xib in Resources */,
-				FC3CE1F61612C23E00D892BF /* DetailMediaController.xib in Resources */,
 				FC274BB11633A3200083C950 /* img2.png in Resources */,
 				5D94CC2F163E5B5100E36C87 /* header.png in Resources */,
+				FCEC833D168ECDB600140B41 /* Default-568h@2x.png in Resources */,
+				FC5F9907169BD3E10021456F /* FourthViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,10 +619,9 @@
 				FC1D45CA15EDF99800743EFD /* TechWebView.m in Sources */,
 				FC1D45E415EDFD0200743EFD /* FifthViewController.m in Sources */,
 				FCE65B9115EE6FFE0047A184 /* ThirdViewController.m in Sources */,
-				FCE65B9715EE836D0047A184 /* FourthViewController.m in Sources */,
 				FC3CE1CC1612BD3C00D892BF /* DetailCalendarController.m in Sources */,
-				FC3CE1F51612C23E00D892BF /* DetailMediaController.m in Sources */,
 				5D922C89163E8E1700050668 /* NSString+NSStringTags.m in Sources */,
+				FC5F9906169BD3E10021456F /* FourthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,7 +668,7 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Max Steele";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Max Steele";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
@@ -681,9 +676,8 @@
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
-				PROVISIONING_PROFILE = "AD18B312-53FA-48BA-BFE6-ADBB83060116";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AD18B312-53FA-48BA-BFE6-ADBB83060116";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "8D97F747-D62E-4042-97AD-688BD49D447D";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = NO;
 			};
@@ -694,15 +688,14 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Max Steele";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Max Steele";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "AD18B312-53FA-48BA-BFE6-ADBB83060116";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AD18B312-53FA-48BA-BFE6-ADBB83060116";
+				PROVISIONING_PROFILE = "8D97F747-D62E-4042-97AD-688BD49D447D";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 			};
@@ -719,9 +712,9 @@
 				GCC_PREFIX_HEADER = "WebViewTutorial1/WebViewTutorial1-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "WebViewTutorial1/ICS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = ICS;
-				PROVISIONING_PROFILE = "AD18B312-53FA-48BA-BFE6-ADBB83060116";
+				PROVISIONING_PROFILE = "8D97F747-D62E-4042-97AD-688BD49D447D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -737,35 +730,33 @@
 				GCC_PREFIX_HEADER = "WebViewTutorial1/WebViewTutorial1-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "WebViewTutorial1/ICS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = ICS;
-				PROVISIONING_PROFILE = "AD18B312-53FA-48BA-BFE6-ADBB83060116";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AD18B312-53FA-48BA-BFE6-ADBB83060116";
+				PROVISIONING_PROFILE = "8D97F747-D62E-4042-97AD-688BD49D447D";
 				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		FCA1D87415EF5AE1007FC0A5 /* AppStore */ = {
+		FC2B2E1C169BF7300044D333 /* AppStore */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Max Steele";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Max Steele";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "AD18B312-53FA-48BA-BFE6-ADBB83060116";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AD18B312-53FA-48BA-BFE6-ADBB83060116";
+				PROVISIONING_PROFILE = "8D97F747-D62E-4042-97AD-688BD49D447D";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = NO;
+				SKIP_INSTALL = YES;
 			};
 			name = AppStore;
 		};
-		FCA1D87515EF5AE1007FC0A5 /* AppStore */ = {
+		FC2B2E1D169BF7300044D333 /* AppStore */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -776,10 +767,10 @@
 				GCC_PREFIX_HEADER = "WebViewTutorial1/WebViewTutorial1-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "WebViewTutorial1/ICS-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = ICS;
-				PROVISIONING_PROFILE = "AD18B312-53FA-48BA-BFE6-ADBB83060116";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "AD18B312-53FA-48BA-BFE6-ADBB83060116";
+				PROVISIONING_PROFILE = "8D97F747-D62E-4042-97AD-688BD49D447D";
+				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = AppStore;
@@ -792,7 +783,7 @@
 			buildConfigurations = (
 				375E3C87144DC81F00A56C68 /* Debug */,
 				375E3C88144DC81F00A56C68 /* Release */,
-				FCA1D87415EF5AE1007FC0A5 /* AppStore */,
+				FC2B2E1C169BF7300044D333 /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -802,7 +793,7 @@
 			buildConfigurations = (
 				375E3C8A144DC81F00A56C68 /* Debug */,
 				375E3C8B144DC81F00A56C68 /* Release */,
-				FCA1D87515EF5AE1007FC0A5 /* AppStore */,
+				FC2B2E1D169BF7300044D333 /* AppStore */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

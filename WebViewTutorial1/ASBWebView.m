@@ -9,7 +9,6 @@
 #import "ASBWebView.h"
 #import "SecondViewController.h"
 
-
 @implementation ASBWebView
 
 @synthesize asbWebView;
@@ -41,11 +40,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
     NSString *fullURL = @"https://sites.google.com/site/icsclubsasb/";
     NSURL *url = [NSURL URLWithString:fullURL];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-    [asbWebView loadRequest:requestObj];
-}
+    [asbWebView loadRequest:requestObj];}
 
 - (void)viewDidUnload
 {
@@ -61,4 +60,3 @@
 }
 
 @end
-

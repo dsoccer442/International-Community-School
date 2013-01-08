@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
    LastUpgradeVersion = "0450"
-   version = "1.8">
+   version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -15,39 +15,36 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "375E3C4B144DC81F00A56C68"
-               BuildableName = "WebViewTutorial1.app"
-               BlueprintName = "WebViewTutorial1"
-               ReferencedContainer = "container:WebViewTutorial1.xcodeproj">
+               BuildableName = "ICS.app"
+               BlueprintName = "ICS"
+               ReferencedContainer = "container:ICS.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "375E3C75144DC81F00A56C68"
-               BuildableName = "WebViewTutorial1Tests.octest"
-               BlueprintName = "WebViewTutorial1Tests"
-               ReferencedContainer = "container:WebViewTutorial1.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "375E3C4B144DC81F00A56C68"
+            BuildableName = "ICS.app"
+            BlueprintName = "ICS"
+            ReferencedContainer = "container:ICS.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </TestAction>
    <LaunchAction
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
-      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.GDB"
-      displayScaleIsEnabled = "NO"
-      displayScale = "1.00"
+      selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "AppStore"
+      buildConfiguration = "Debug"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
@@ -55,17 +52,15 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "375E3C4B144DC81F00A56C68"
-            BuildableName = "WebViewTutorial1.app"
-            BlueprintName = "WebViewTutorial1"
-            ReferencedContainer = "container:WebViewTutorial1.xcodeproj">
+            BuildableName = "ICS.app"
+            BlueprintName = "ICS"
+            ReferencedContainer = "container:ICS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
-      displayScaleIsEnabled = "NO"
-      displayScale = "1.00"
       shouldUseLaunchSchemeArgsEnv = "YES"
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
@@ -75,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "375E3C4B144DC81F00A56C68"
-            BuildableName = "WebViewTutorial1.app"
-            BlueprintName = "WebViewTutorial1"
-            ReferencedContainer = "container:WebViewTutorial1.xcodeproj">
+            BuildableName = "ICS.app"
+            BlueprintName = "ICS"
+            ReferencedContainer = "container:ICS.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
@@ -85,7 +80,7 @@
       buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
-      buildConfiguration = "Release"
+      buildConfiguration = "AppStore"
       revealArchiveInOrganizer = "YES">
    </ArchiveAction>
 </Scheme>
