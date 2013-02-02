@@ -705,7 +705,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Max Steele";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dylan Steele (H8557T9W8Q)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dylan Steele (H8557T9W8Q)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -714,7 +715,8 @@
 				INFOPLIST_FILE = "WebViewTutorial1/ICS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = ICS;
-				PROVISIONING_PROFILE = "8D97F747-D62E-4042-97AD-688BD49D447D";
+				PROVISIONING_PROFILE = "D1659FD8-796A-4510-A287-2456865A2D0C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D1659FD8-796A-4510-A287-2456865A2D0C";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -723,8 +725,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Max Steele";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Max Steele";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Dylan Steele (H8557T9W8Q)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dylan Steele (H8557T9W8Q)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebViewTutorial1/WebViewTutorial1-Prefix.pch";
@@ -732,7 +734,8 @@
 				INFOPLIST_FILE = "WebViewTutorial1/ICS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = ICS;
-				PROVISIONING_PROFILE = "8D97F747-D62E-4042-97AD-688BD49D447D";
+				PROVISIONING_PROFILE = "D1659FD8-796A-4510-A287-2456865A2D0C";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D1659FD8-796A-4510-A287-2456865A2D0C";
 				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = app;
 			};
@@ -769,7 +772,8 @@
 				INFOPLIST_FILE = "WebViewTutorial1/ICS-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = ICS;
-				PROVISIONING_PROFILE = "8D97F747-D62E-4042-97AD-688BD49D447D";
+				PROVISIONING_PROFILE = "FFD8D1CA-8016-475A-AB4D-1A96F4368350";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FFD8D1CA-8016-475A-AB4D-1A96F4368350";
 				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = app;
 			};
