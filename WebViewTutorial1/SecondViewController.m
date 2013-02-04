@@ -50,8 +50,7 @@
     }
     
     // Text of cell is the name of items in content array
-    cell.text = [contentArray objectAtIndex:indexPath.row];
-    [cell.textLabel setMinimumFontSize:FONT_SIZE];
+    cell.textLabel.text = [contentArray objectAtIndex:indexPath.row];
     [cell.textLabel setFont:[UIFont systemFontOfSize:FONT_SIZE]];
     // Background of text label is red and text color is yellow
     //cell.textLabel.backgroundColor = [UIColor colorWithRed:0.522 green:0.111 blue:0.048 alpha:1.0];

@@ -8,6 +8,7 @@
 
 #import "WebViewTutorial1AppDelegate.h"
 #import "FirstViewController.h"
+#import <Parse/Parse.h>
 
 @implementation WebViewTutorial1AppDelegate
 
@@ -19,6 +20,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [Parse setApplicationId:@"hhZG0Nt99zg8gr0lAaN6JuyoPS1w1m8iFKDay3OK"
+                  clientKey:@"S6iMNDqFNDBi11FwvIFxlL1CwmhUk4Cw9o7GDXNU"];
+    
     // Override point for customization after application launch.
     // Add the tab bar controller's current view as a subview of the window
     self.window.rootViewController = self.tabBarController;
@@ -34,9 +38,13 @@
     return YES;
 }
 
-- (void)application:(UIApplication*)application didRegisterForRemoteNotificationsWithDeviceToken:(NSData*)deviceToken
+- (void)application:(UIApplication *)application
+didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)newDeviceToken
 {
-	NSLog(@"My token is: %@", deviceToken);
+    [PFPush storeDeviceToken:newDeviceToken]; // Send parse the device token
+    // Subscribe this user to the broadcast channel, ""
+    [[PFInstallation currentInstallation] addUniqueObject:@"" forKey:@"channels"];
+    [[PFInstallation currentInstallation] saveEventually];
 }
 
 - (void)application:(UIApplication*)application didFailToRegisterForRemoteNotificationsWithError:(NSError*)error

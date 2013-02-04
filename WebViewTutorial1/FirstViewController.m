@@ -12,7 +12,7 @@
 #import "WebViewTutorial1AppDelegate.h"
 
 // Defining font and cell size for dynamic wrapping
-#define FONT_SIZE 18.0f
+#define FONT_SIZE 20.0f
 #define CELL_CONTENT_WIDTH 320.0f
 #define CELL_CONTENT_MARGIN 10.0f
 

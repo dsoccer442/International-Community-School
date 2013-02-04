@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Parse/Parse.h>
 
 @interface WebViewTutorial1AppDelegate : NSObject <UIApplicationDelegate, UITabBarControllerDelegate> {
     IBOutlet UIWindow *window;

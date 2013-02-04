@@ -72,6 +72,18 @@
 		FCE886D115EF3A27006677E9 /* iPhoneIcon_Big.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE886CF15EF3A27006677E9 /* iPhoneIcon_Big.png */; };
 		FCE886D215EF3A27006677E9 /* iPhoneIcon_Medium.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE886D015EF3A27006677E9 /* iPhoneIcon_Medium.png */; };
 		FCEC833D168ECDB600140B41 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FCEC833C168ECDB600140B41 /* Default-568h@2x.png */; };
+		FCF55C3116BF5B1000D7DBC2 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF55C3016BF5B1000D7DBC2 /* Parse.framework */; };
+		FCF55C3316BF5B3100D7DBC2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF55C3216BF5B3100D7DBC2 /* AdSupport.framework */; };
+		FCF55C3516BF5B3D00D7DBC2 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF55C3416BF5B3D00D7DBC2 /* Accounts.framework */; };
+		FCF55C3716BF5B4100D7DBC2 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF55C3616BF5B4100D7DBC2 /* AudioToolbox.framework */; };
+		FCF55C3916BF5B4900D7DBC2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF55C3816BF5B4900D7DBC2 /* SystemConfiguration.framework */; };
+		FCF55C3B16BF5B4F00D7DBC2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF55C3A16BF5B4F00D7DBC2 /* StoreKit.framework */; };
+		FCF55C3D16BF5B5500D7DBC2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF55C3C16BF5B5500D7DBC2 /* Security.framework */; };
+		FCF55C3F16BF5B6300D7DBC2 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF55C3E16BF5B6300D7DBC2 /* MobileCoreServices.framework */; };
+		FCF55C4116BF5B6B00D7DBC2 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF55C4016BF5B6B00D7DBC2 /* libz.1.1.3.dylib */; };
+		FCF55C4316BF5B8300D7DBC2 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF55C4216BF5B8300D7DBC2 /* libsqlite3.dylib */; };
+		FCF55C4716BF5B9500D7DBC2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF55C4616BF5B9500D7DBC2 /* CoreLocation.framework */; };
+		FCF55C4916BF5B9900D7DBC2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCF55C4816BF5B9900D7DBC2 /* CFNetwork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -167,6 +179,19 @@
 		FCE886CF15EF3A27006677E9 /* iPhoneIcon_Big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneIcon_Big.png; sourceTree = "<group>"; };
 		FCE886D015EF3A27006677E9 /* iPhoneIcon_Medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneIcon_Medium.png; sourceTree = "<group>"; };
 		FCEC833C168ECDB600140B41 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FCF55C3016BF5B1000D7DBC2 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		FCF55C3216BF5B3100D7DBC2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		FCF55C3416BF5B3D00D7DBC2 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		FCF55C3616BF5B4100D7DBC2 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FCF55C3816BF5B4900D7DBC2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FCF55C3A16BF5B4F00D7DBC2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		FCF55C3C16BF5B5500D7DBC2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FCF55C3E16BF5B6300D7DBC2 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FCF55C4016BF5B6B00D7DBC2 /* libz.1.1.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.1.3.dylib; path = usr/lib/libz.1.1.3.dylib; sourceTree = SDKROOT; };
+		FCF55C4216BF5B8300D7DBC2 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FCF55C4416BF5B8B00D7DBC2 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		FCF55C4616BF5B9500D7DBC2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FCF55C4816BF5B9900D7DBC2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,10 +199,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF55C4916BF5B9900D7DBC2 /* CFNetwork.framework in Frameworks */,
+				FCF55C4716BF5B9500D7DBC2 /* CoreLocation.framework in Frameworks */,
+				FCF55C4316BF5B8300D7DBC2 /* libsqlite3.dylib in Frameworks */,
+				FCF55C4116BF5B6B00D7DBC2 /* libz.1.1.3.dylib in Frameworks */,
+				FCF55C3F16BF5B6300D7DBC2 /* MobileCoreServices.framework in Frameworks */,
 				FC76222216176BC200736DA2 /* QuartzCore.framework in Frameworks */,
+				FCF55C3D16BF5B5500D7DBC2 /* Security.framework in Frameworks */,
+				FCF55C3B16BF5B4F00D7DBC2 /* StoreKit.framework in Frameworks */,
+				FCF55C3916BF5B4900D7DBC2 /* SystemConfiguration.framework in Frameworks */,
+				FCF55C3716BF5B4100D7DBC2 /* AudioToolbox.framework in Frameworks */,
+				FCF55C3516BF5B3D00D7DBC2 /* Accounts.framework in Frameworks */,
+				FCF55C3316BF5B3100D7DBC2 /* AdSupport.framework in Frameworks */,
 				375E3C51144DC81F00A56C68 /* UIKit.framework in Frameworks */,
 				375E3C53144DC81F00A56C68 /* Foundation.framework in Frameworks */,
 				375E3C55144DC81F00A56C68 /* CoreGraphics.framework in Frameworks */,
+				FCF55C3116BF5B1000D7DBC2 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +243,19 @@
 		375E3C4F144DC81F00A56C68 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FCF55C4816BF5B9900D7DBC2 /* CFNetwork.framework */,
+				FCF55C4616BF5B9500D7DBC2 /* CoreLocation.framework */,
+				FCF55C4416BF5B8B00D7DBC2 /* CoreImage.framework */,
+				FCF55C4216BF5B8300D7DBC2 /* libsqlite3.dylib */,
+				FCF55C4016BF5B6B00D7DBC2 /* libz.1.1.3.dylib */,
+				FCF55C3E16BF5B6300D7DBC2 /* MobileCoreServices.framework */,
+				FCF55C3C16BF5B5500D7DBC2 /* Security.framework */,
+				FCF55C3A16BF5B4F00D7DBC2 /* StoreKit.framework */,
+				FCF55C3816BF5B4900D7DBC2 /* SystemConfiguration.framework */,
+				FCF55C3616BF5B4100D7DBC2 /* AudioToolbox.framework */,
+				FCF55C3416BF5B3D00D7DBC2 /* Accounts.framework */,
+				FCF55C3216BF5B3100D7DBC2 /* AdSupport.framework */,
+				FCF55C3016BF5B1000D7DBC2 /* Parse.framework */,
 				FC76222116176BC200736DA2 /* QuartzCore.framework */,
 				375E3C50144DC81F00A56C68 /* UIKit.framework */,
 				375E3C52144DC81F00A56C68 /* Foundation.framework */,
@@ -708,6 +758,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Dylan Steele (H8557T9W8Q)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dylan Steele (H8557T9W8Q)";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebViewTutorial1/WebViewTutorial1-Prefix.pch";
@@ -728,6 +782,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer: Dylan Steele (H8557T9W8Q)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Dylan Steele (H8557T9W8Q)";
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebViewTutorial1/WebViewTutorial1-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -766,6 +824,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Max Steele";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Max Steele";
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebViewTutorial1/WebViewTutorial1-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;

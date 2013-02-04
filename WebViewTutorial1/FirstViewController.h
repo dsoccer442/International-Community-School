@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "NSString+NSStringTags.h"
+#import <Parse/Parse.h>
 
 @interface FirstViewController : 
 UITableViewController {
