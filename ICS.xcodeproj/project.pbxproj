@@ -67,6 +67,8 @@
 		FC5F9906169BD3E10021456F /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC5F9904169BD3E00021456F /* FourthViewController.m */; };
 		FC5F9907169BD3E10021456F /* FourthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC5F9905169BD3E10021456F /* FourthViewController.xib */; };
 		FC76222216176BC200736DA2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC76222116176BC200736DA2 /* QuartzCore.framework */; };
+		FC7BA39716BF628F0050F5F0 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC7BA39616BF628F0050F5F0 /* Storyboard.storyboard */; };
+		FC7BA39A16BF65030050F5F0 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC7BA39916BF65030050F5F0 /* RegisterViewController.m */; };
 		FCE65B9115EE6FFE0047A184 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCE65B8F15EE6FFE0047A184 /* ThirdViewController.m */; };
 		FCE65B9215EE6FFE0047A184 /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCE65B9015EE6FFE0047A184 /* ThirdViewController.xib */; };
 		FCE886D115EF3A27006677E9 /* iPhoneIcon_Big.png in Resources */ = {isa = PBXBuildFile; fileRef = FCE886CF15EF3A27006677E9 /* iPhoneIcon_Big.png */; };
@@ -173,12 +175,15 @@
 		FC5F9904169BD3E00021456F /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 		FC5F9905169BD3E10021456F /* FourthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FourthViewController.xib; sourceTree = "<group>"; };
 		FC76222116176BC200736DA2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FC7BA39616BF628F0050F5F0 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		FC7BA39816BF65030050F5F0 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		FC7BA39916BF65030050F5F0 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		FCE65B8E15EE6FFE0047A184 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		FCE65B8F15EE6FFE0047A184 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		FCE65B9015EE6FFE0047A184 /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
 		FCE886CF15EF3A27006677E9 /* iPhoneIcon_Big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneIcon_Big.png; sourceTree = "<group>"; };
 		FCE886D015EF3A27006677E9 /* iPhoneIcon_Medium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iPhoneIcon_Medium.png; sourceTree = "<group>"; };
-		FCEC833C168ECDB600140B41 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FCEC833C168ECDB600140B41 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		FCF55C3016BF5B1000D7DBC2 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
 		FCF55C3216BF5B3100D7DBC2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		FCF55C3416BF5B3D00D7DBC2 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
@@ -224,7 +229,7 @@
 		375E3C41144DC81E00A56C68 = {
 			isa = PBXGroup;
 			children = (
-				FCEC833C168ECDB600140B41 /* Default-568h@2x.png */,
+				FC7BA39616BF628F0050F5F0 /* Storyboard.storyboard */,
 				375E3C56144DC81F00A56C68 /* WebViewTutorial1 */,
 				375E3C57144DC81F00A56C68 /* Supporting Files */,
 				375E3C4F144DC81F00A56C68 /* Frameworks */,
@@ -267,18 +272,14 @@
 		375E3C56144DC81F00A56C68 /* WebViewTutorial1 */ = {
 			isa = PBXGroup;
 			children = (
-				5D94CC2E163E5B5100E36C87 /* header.png */,
-				FC274BB01633A3200083C950 /* img2.png */,
+				FC7BA39816BF65030050F5F0 /* RegisterViewController.h */,
+				FC7BA39916BF65030050F5F0 /* RegisterViewController.m */,
 				FC1D45DF15EDFC6B00743EFD /* First View (Home) */,
 				FC1D45E015EDFC7700743EFD /* Second View (Clubs) */,
 				FCE65B9315EE70C90047A184 /* Third View (Calendar) */,
 				FC5F9908169BD3F60021456F /* Fourth View (Media) */,
 				FCE65B8C15EE6CB90047A184 /* Fifth View (Contact) */,
-				375E3C5F144DC81F00A56C68 /* WebViewTutorial1AppDelegate.h */,
-				375E3C60144DC81F00A56C68 /* WebViewTutorial1AppDelegate.m */,
-				375E3C62144DC81F00A56C68 /* MainWindow.xib */,
-				5D922C87163E8E1700050668 /* NSString+NSStringTags.h */,
-				5D922C88163E8E1700050668 /* NSString+NSStringTags.m */,
+				FC7BA39316BF61300050F5F0 /* Other */,
 			);
 			path = WebViewTutorial1;
 			sourceTree = "<group>";
@@ -286,6 +287,9 @@
 		375E3C57144DC81F00A56C68 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FCEC833C168ECDB600140B41 /* Default-568h@2x.png */,
+				5D94CC2E163E5B5100E36C87 /* header.png */,
+				FC274BB01633A3200083C950 /* img2.png */,
 				FC1D459715EDF6B400743EFD /* Web Test */,
 				FC1D45D215EDFBD000743EFD /* images */,
 				375E3C58144DC81F00A56C68 /* ICS-Info.plist */,
@@ -505,6 +509,18 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		FC7BA39316BF61300050F5F0 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				375E3C5F144DC81F00A56C68 /* WebViewTutorial1AppDelegate.h */,
+				375E3C60144DC81F00A56C68 /* WebViewTutorial1AppDelegate.m */,
+				375E3C62144DC81F00A56C68 /* MainWindow.xib */,
+				5D922C87163E8E1700050668 /* NSString+NSStringTags.h */,
+				5D922C88163E8E1700050668 /* NSString+NSStringTags.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
 		FCE65B8C15EE6CB90047A184 /* Fifth View (Contact) */ = {
 			isa = PBXGroup;
 			children = (
@@ -637,6 +653,7 @@
 				5D94CC2F163E5B5100E36C87 /* header.png in Resources */,
 				FCEC833D168ECDB600140B41 /* Default-568h@2x.png in Resources */,
 				FC5F9907169BD3E10021456F /* FourthViewController.xib in Resources */,
+				FC7BA39716BF628F0050F5F0 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -672,6 +689,7 @@
 				FC3CE1CC1612BD3C00D892BF /* DetailCalendarController.m in Sources */,
 				5D922C89163E8E1700050668 /* NSString+NSStringTags.m in Sources */,
 				FC5F9906169BD3E10021456F /* FourthViewController.m in Sources */,
+				FC7BA39A16BF65030050F5F0 /* RegisterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

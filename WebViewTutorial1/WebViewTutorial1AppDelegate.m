@@ -13,7 +13,7 @@
 @implementation WebViewTutorial1AppDelegate
 
 
-@synthesize window;
+@synthesize window = _window;
 
 @synthesize tabBarController;
 @synthesize navigationController;
@@ -50,6 +50,11 @@ didRegisterForRemoteNotificationsWithDeviceToken:(NSData *)newDeviceToken
 - (void)application:(UIApplication*)application didFailToRegisterForRemoteNotificationsWithError:(NSError*)error
 {
 	NSLog(@"Failed to get token, error: %@", error);
+}
+
+- (void)application:(UIApplication *)application
+didReceiveRemoteNotification:(NSDictionary *)userInfo {
+    [PFPush handlePush:userInfo];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
